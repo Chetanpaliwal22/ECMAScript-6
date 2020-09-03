@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Arrow Functions</h2>
+
+<p id="es5"></p>
+
+
+<p id="es6"></p>
+<script>
+
+//ES5 Version
+var es5 = function(x, y) {
+   return x * y;
+}
+
+//ES6 Version
+const es6 = (x, y) => x * y;
+document.getElementById("es5").innerHTML = es5(5, 5);
+
+document.getElementById("es6").innerHTML = es6(6, 6);
+</script>
+
+</body>
+</html>
